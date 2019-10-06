@@ -11,8 +11,8 @@ rescue Bundler::BundlerError => e
 end
 require 'rake'
 
-require 'jeweler'
-Jeweler::Tasks.new do |gem|
+require 'juwelier'
+Juwelier::Tasks.new do |gem|
   # gem is a Gem::Specification... see http://guides.rubygems.org/specification-reference/ for more options
   gem.name = "excel_import"
   gem.homepage = "http://github.com/omairazam/excel_import"
@@ -23,7 +23,7 @@ Jeweler::Tasks.new do |gem|
   gem.authors = ["omairazam"]
   # dependencies defined in Gemfile
 end
-Jeweler::RubygemsDotOrgTasks.new
+Juwelier::RubygemsDotOrgTasks.new
 
 require 'rake/testtask'
 Rake::TestTask.new(:test) do |test|
