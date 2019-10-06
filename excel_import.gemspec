@@ -27,7 +27,7 @@ Gem::Specification.new do |s|
     "Rakefile",
     "excel_import.gemspec",
     "lib/excel_import.rb",
-    "lib/excel_import/test.rb",
+    "lib/excel_import/excel_loader.rb",
     "test/helper.rb",
     "test/test_excel_import.rb"
   ]
