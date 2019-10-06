@@ -11,4 +11,5 @@ group :development do
   gem "bundler", "~> 2.0.1"
   gem "juwelier"
   gem "simplecov", ">= 0"
+  gem 'datashift', github: 'omairrazam/datashift', branch: '3-2-stable'
 end
