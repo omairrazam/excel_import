@@ -27,6 +27,7 @@ Gem::Specification.new do |s|
     "Rakefile",
     "excel_import.gemspec",
     "lib/excel_import.rb",
+    "lib/excel_import/adapters/program.rb",
     "lib/excel_import/excel_loader.rb",
     "test/helper.rb",
     "test/test_excel_import.rb"
@@ -45,12 +46,14 @@ Gem::Specification.new do |s|
       s.add_development_dependency(%q<bundler>.freeze, ["~> 2.0.1"])
       s.add_development_dependency(%q<juwelier>.freeze, [">= 0"])
       s.add_development_dependency(%q<simplecov>.freeze, [">= 0"])
+      s.add_development_dependency(%q<datashift>.freeze, [">= 0"])
     else
       s.add_dependency(%q<shoulda>.freeze, [">= 0"])
       s.add_dependency(%q<rdoc>.freeze, ["~> 3.12"])
       s.add_dependency(%q<bundler>.freeze, ["~> 2.0.1"])
       s.add_dependency(%q<juwelier>.freeze, [">= 0"])
       s.add_dependency(%q<simplecov>.freeze, [">= 0"])
+      s.add_dependency(%q<datashift>.freeze, [">= 0"])
     end
   else
     s.add_dependency(%q<shoulda>.freeze, [">= 0"])
@@ -58,6 +61,7 @@ Gem::Specification.new do |s|
     s.add_dependency(%q<bundler>.freeze, ["~> 2.0.1"])
     s.add_dependency(%q<juwelier>.freeze, [">= 0"])
     s.add_dependency(%q<simplecov>.freeze, [">= 0"])
+    s.add_dependency(%q<datashift>.freeze, [">= 0"])
   end
 end
 
