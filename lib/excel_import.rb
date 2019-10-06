@@ -1,3 +1,5 @@
 module ExcelImport
-	require 'excel_import/excel_loader'
+	require 'excel_import'
+	require 'excel_import/adapters/program'
+
 end
