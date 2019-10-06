@@ -1,5 +1,5 @@
 module ExcelImport
-	module Adapter
+	module Adapters
 		class Program < DataShift::Excel
 			# HEADERS = [:loan_purpose, :loan_size, :loan_type, :team, :interest_rate, :lock_period, :fannie_mae, :base_rate, :adjustment_rate]
 		  HEADERS = [:base_rate, :adjustment_rate, :loan_size, :loan_type, :term, :fannie_mae]
