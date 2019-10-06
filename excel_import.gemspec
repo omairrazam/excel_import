@@ -12,7 +12,7 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib".freeze]
   s.authors = ["omairazam".freeze]
   s.date = "2019-10-06"
-  s.description = "TODO: longer description of your gem".freeze
+  s.description = "Demo test".freeze
   s.email = "omsolutionpk@gmail.com".freeze
   s.extra_rdoc_files = [
     "LICENSE.txt",
@@ -33,7 +33,7 @@ Gem::Specification.new do |s|
   s.homepage = "http://github.com/omairazam/excel_import".freeze
   s.licenses = ["MIT".freeze]
   s.rubygems_version = "3.0.3".freeze
-  s.summary = "TODO: one-line summary of your gem".freeze
+  s.summary = "one-line summary of your gem".freeze
 
   if s.respond_to? :specification_version then
     s.specification_version = 4
