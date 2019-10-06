@@ -1,7 +1,3 @@
 module ExcelImport
-	class Fantastic
-		def self.awesome?
-			puts "I am awesome"
-		end
-	end
+	require 'excel_import/excel_loader'
 end
