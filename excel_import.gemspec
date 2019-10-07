@@ -30,6 +30,7 @@ Gem::Specification.new do |s|
     "lib/excel_import/adapters/program.rb",
     "lib/excel_import/excel_loader.rb",
     "lib/excel_import/extractors/program.rb",
+    "lib/excel_import/loan_calculator.rb",
     "test/helper.rb",
     "test/test_excel_import.rb"
   ]
