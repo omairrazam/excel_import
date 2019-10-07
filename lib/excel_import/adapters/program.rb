@@ -19,7 +19,7 @@ module ExcelImport
 		  end
 
 		  def get_single_row
-		    extractor = ProgramExtractor.new @current_sheet
+		    extractor = ExcelImport::Extractors::Program.new @current_sheet
 		    base_rate = extractor.base_rate.to_json
 		    adjustment_rate = extractor.adjustment_rate.to_json
 		    loan_size = extractor.loan_size
